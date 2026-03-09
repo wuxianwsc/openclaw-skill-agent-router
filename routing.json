@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "pm": "pm-agent-live",
+    "dev": "dev-agent-v1234",
+    "qa": "qa-agent-v1234",
+    "test": "qa-agent-v1234"
+  },
+  "patterns": [
+    "^\\[(?<role>pm|dev|qa|test)\\]\\s+(?<task>.*)",
+    "^@(?<role>pm|dev|qa|test)\\s+(?<task>.*)"
+  ]
+}

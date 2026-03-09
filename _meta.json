@@ -1,0 +1,31 @@
+{
+  "id": "agent-router",
+  "name": "Matrix Multi-Agent Router",
+  "version": "1.0.0",
+  "kind": "skill",
+  "description": "Enterprise-grade physical routing for multi-agent collaboration via Matrix.",
+  "openclaw": {
+    "emoji": "📡",
+    "hooks": ["hooks/openclaw/handler.js"]
+  },
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "mappings": {
+        "type": "object",
+        "description": "Role to Agent ID mapping",
+        "additionalProperties": { "type": "string" }
+      },
+      "coolingPeriodMs": {
+        "type": "number",
+        "default": 30000,
+        "description": "Anti-loop cooling period in milliseconds"
+      },
+      "maxDepth": {
+        "type": "number",
+        "default": 2,
+        "description": "Maximum nesting depth for auto-routing"
+      }
+    }
+  }
+}

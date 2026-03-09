@@ -1,0 +1,16 @@
+{
+  "name": "@openclaw-skills/agent-router",
+  "version": "1.2.0",
+  "description": "Enterprise-grade Matrix multi-agent routing daemon with physical intercept and anti-loop protection.",
+  "main": "hooks/openclaw/handler.js",
+  "author": "Boss & Alpha",
+  "license": "MIT",
+  "openclaw": {
+    "kind": "skill",
+    "emoji": "📡",
+    "category": "automation",
+    "hooks": [
+      "hooks/openclaw/handler.js"
+    ]
+  }
+}

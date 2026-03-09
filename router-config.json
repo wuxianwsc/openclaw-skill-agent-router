@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "pm": "pm-agent-live",
+    "dev": "dev-agent-v1234",
+    "qa": "qa-agent-v1234",
+    "test": "qa-agent-v1234"
+  },
+  "signature_template": "【%role%】\n%content%",
+  "filters": {
+    "prefix": ["@", "["],
+    "suffix": ["]"]
+  }
+}
