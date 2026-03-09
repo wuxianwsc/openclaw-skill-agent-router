@@ -5,10 +5,19 @@
   "main": "hooks/openclaw/handler.js",
   "author": "Boss & Alpha",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuxianwsc/openclaw-skill-agent-router.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["openclaw", "agent", "router", "matrix", "automation", "multi-agent"],
   "openclaw": {
     "kind": "skill",
     "emoji": "📡",
     "category": "automation",
+    "minVersion": "2026.3.0",
     "hooks": [
       "hooks/openclaw/handler.js"
     ]
