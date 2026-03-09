@@ -1,6 +1,13 @@
-# 📡 Matrix Agent Router (v1.2)
+---
+name: agent-router
+description: Enterprise-grade Matrix multi-agent routing daemon with physical intercept and anti-loop protection.
+homepage: https://github.com/wuxianwsc/openclaw-skill-agent-router
+metadata: {"openclaw":{"emoji":"📡","category":"automation","requires":{"config":["matrix"]}}}
+---
 
-让您的 Matrix 机器人拥有“一呼百应”的团队协作能力。
+# 📡 Matrix Agent Router
+
+让您的 Matrix 机器人拥有"一呼百应"的团队协作能力。
 
 ## 📖 3步极速上手
 
@@ -29,7 +36,7 @@ skills:
 ---
 
 ## 💡 核心契约 (必看)
-为了让团队有序工作，请遵循 **“句首指令”** 原则：
+为了让团队有序工作，请遵循 **"句首指令"** 原则：
 - ✅ **有效路由**：`@dev 部署代码` (指令在句首)
 - ❌ **普通聊天**：`我刚才问了 @dev，他说没问题` (指令在句中，不触发路由)
 
